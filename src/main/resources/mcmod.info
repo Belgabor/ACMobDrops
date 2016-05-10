@@ -1,0 +1,16 @@
+[
+{
+  "modid": "acmobdrops",
+  "name": "AgriCraft Mob Drop Crops",
+  "description": "Provides AgriCraft compatibility for Pam's Mob Drop Crops.",
+  "version": "${mod_version}",
+  "mcversion": "${minecraft_version}",
+  "url": "https://github.com/Belgabor/ACMobDrops",
+  "updateUrl": "",
+  "authorList": ["Belgabor"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["AgriCraft", "mobdropcrops"]
+}
+]

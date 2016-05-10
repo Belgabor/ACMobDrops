@@ -1,0 +1,12 @@
+*.jar
+/build
+/eclipse
+/AMTweaker.iws
+/AMTweaker.iml
+/AMTweaker.ipr
+/.gradle
+/ref
+/libs/*.zip
+*.ipr
+*.iws
+/.idea
