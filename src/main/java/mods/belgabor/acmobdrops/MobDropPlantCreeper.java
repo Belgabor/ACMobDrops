@@ -16,8 +16,8 @@ import java.util.Random;
  * Created by Belgabor on 10.05.2016.
  */
 public class MobDropPlantCreeper extends MobDropPlantSpecial {
-    public MobDropPlantCreeper() {
-        super(mobdropcrops.pamcreeperVine, (ItemSeeds) mobdropcrops.creeperseedItem);
+    public MobDropPlantCreeper(boolean bonemeal) {
+        super(mobdropcrops.pamcreeperVine, (ItemSeeds) mobdropcrops.creeperseedItem, bonemeal);
     }
 
     @Override

@@ -15,8 +15,8 @@ import java.util.Random;
  * Created by Belgabor on 10.05.2016.
  */
 public class MobDropPlantSlime extends MobDropPlantSpecial {
-    public MobDropPlantSlime() {
-        super(mobdropcrops.pamslimepadCrop, (ItemSeeds) mobdropcrops.slimeseedItem);
+    public MobDropPlantSlime(boolean bonemeal) {
+        super(mobdropcrops.pamslimepadCrop, (ItemSeeds) mobdropcrops.slimeseedItem, bonemeal);
     }
 
     @Override

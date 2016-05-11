@@ -15,8 +15,8 @@ import java.util.Random;
 public abstract class MobDropPlantSpecial extends MobDropPlant {
     protected Block special_crop;
 
-    public MobDropPlantSpecial(Block crop, ItemSeeds seed) {
-        super(null, seed);
+    public MobDropPlantSpecial(Block crop, ItemSeeds seed, boolean bonemeal) {
+        super(null, seed, bonemeal);
         this.special_crop = crop;
     }
 

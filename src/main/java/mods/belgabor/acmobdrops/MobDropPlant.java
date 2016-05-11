@@ -12,9 +12,11 @@ import net.minecraft.item.ItemSeeds;
  * Created by Belgabor on 10.05.2016.
  */
 public class MobDropPlant extends CropPlantVanilla {
+    protected boolean bonemeal;
 
-    public MobDropPlant(BlockCrops crop, ItemSeeds seed) {
+    public MobDropPlant(BlockCrops crop, ItemSeeds seed, boolean bonemeal) {
         super(crop, seed);
+        this.bonemeal = bonemeal;
     }
 
     @Override
@@ -23,5 +25,8 @@ public class MobDropPlant extends CropPlantVanilla {
     }
 
     @Override
-    public int tier() {return 3;}
+    public int tier() {return ACMobDrops.cfgCropsTier;}
+
+    @Override
+    public boolean canBonemeal() { return bonemeal; }
 }
