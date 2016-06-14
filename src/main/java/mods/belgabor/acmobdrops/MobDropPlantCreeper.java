@@ -35,7 +35,6 @@ public class MobDropPlantCreeper extends MobDropPlantSpecial {
     @Override
     @SideOnly(Side.CLIENT)
     public IIcon getPlantIcon(int meta) {
-        System.out.println(meta);
         switch(meta) {
             case 0:
             case 1:

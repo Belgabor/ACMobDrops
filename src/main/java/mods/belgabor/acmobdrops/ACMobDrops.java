@@ -22,7 +22,7 @@ import java.io.File;
 public class ACMobDrops
 {
     public static final String MODID = "acmobdrops";
-    public static final String VERSION = "0.1";
+    public static final String VERSION = "0.11";
 
     @SidedProxy(
             clientSide = "mods.belgabor.acmobdrops.proxy.ClientProxy",

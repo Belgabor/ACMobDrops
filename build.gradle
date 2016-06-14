@@ -33,6 +33,7 @@ archivesBaseName = "ACMobDrops"
 minecraft {
     version = config.minecraft_version + "-" + config.forge_version
     runDir = "eclipse"
+    assetDir = "eclipse"
 }
 
 [compileJava, compileTestJava,compileApiJava,recompMinecraft].each{
